@@ -1,0 +1,48 @@
+/*container*/
+.container {
+    display: flex;
+    height: 100px;
+    counter-reset: num;
+}
+/*all items*/
+.container div {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle closest-side, black 70%, #ebe4ba 75%, transparent 80%);
+
+    font-size: 3vw;
+    color: white;
+    
+}
+.container div span::after {
+    counter-increment: num;
+    content: counter(num);
+}
+
+div:nth-child(5n + 1) {
+    background-color: orange;
+}
+
+div:nth-child(5n + 2) {
+    background-color: blue;
+}
+
+div:nth-child(5n + 3) {
+    background-color: green;
+}
+
+div:nth-child(5n + 4) {
+    background-color: red;
+}
+div:nth-child(5n + 5) {
+    background-color: yellow;
+}
+div:nth-child(12){
+    flex-grow: 5;
+    font-size: 5vw;
+}
+
+
+
