@@ -1,0 +1,15 @@
+.exer_list {
+    list-style: decimal;
+    line-height: 2em;
+}
+.exer_list ul {
+    padding: 0;
+    margin: 0;
+}
+.exer_list ul li {
+    display: inline;
+    padding: 0 15px 0 0;
+}
+a {
+    text-decoration: none;
+}
