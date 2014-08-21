@@ -1,0 +1,21 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height:100%;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+}
+ .row, .row_data{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    flex-grow: 1;
+}
