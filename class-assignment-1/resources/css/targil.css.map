@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "",
+  "sources": ["targil.scss"],
+  "names": [],
+  "mappings": "AAAA,KAAK;EACD,OAAO;;AAEX;EACI,kBAAkB;;AAEtB;EACI,OAAO;;AAEX;EACI,OAAO"
+}

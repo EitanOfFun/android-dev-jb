@@ -5,7 +5,7 @@
     counter-reset: num;
 }
 /*all items*/
-.container div {
+.container>div {
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -16,7 +16,7 @@
     color: white;
     
 }
-.container div span::after {
+.container>div>span::after {
     counter-increment: num;
     content: counter(num);
 }
